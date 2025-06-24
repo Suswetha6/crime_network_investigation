@@ -12,6 +12,12 @@ This project models a **crime investigation network** using advanced graph algor
 
 ---
 
+## Demo Video
+
+[Watch the demo video here](https://drive.google.com/drive/folders/1RyvY_lRHB00QBDHjdBzxz8JS6HISyxNB?usp=sharing)
+
+---
+
 ## Features
 
 - **Data Generation**: Generate synthetic CSV data for nodes and edges using `genrate_data.py`, or use the provided `crime_nodes.csv` and `crime_network.csv`.
