@@ -35,10 +35,17 @@ This project models a **crime investigation network** using advanced graph algor
 
 ### 1. Install Requirements
 
-Make sure you have Python 3.7+ and install the required packages:
+Make sure you have Python 3.7+ installed.
 
+First, (optionally) create and activate a virtual environment:
 ```bash
-pip install matplotlib networkx pandas
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+Then, install the required packages using the provided `requirements.txt`:
+```bash
+pip install -r requirements.txt
 ```
 
 ### 2. Generate or Use Provided Data
@@ -57,11 +64,6 @@ This will create fresh `crime_nodes.csv` and `crime_network.csv` files.
 ```bash
 python crime_investigation.py
 ```
-
-This will:
-- Print network statistics and analysis
-- Show critical people and groups
-- Allow you to interactively explore the network, find paths, analyze suspects, and simulate arrests
 
 ---
 
